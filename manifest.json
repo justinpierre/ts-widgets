@@ -1,0 +1,26 @@
+{
+  "name": "Justin",
+  "label": "Justin",
+  "2D": false,
+  "3D": true,
+  "platform": "HTML3D",
+  "version": "1.0",
+  "wabVersion": "2.9",
+  "author": "Gavin Rehkemper",
+  "description": "Demo widget for TS.",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "supportMultiInstance": true,
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": false,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": false,
+    "hasSettingUIFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false,
+    "IsController": false
+  }
+}
