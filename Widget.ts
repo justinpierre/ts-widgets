@@ -43,7 +43,7 @@ class Widget implements IWidget {
    */
   private createLayer() {
     const layer = new FeatureLayer({
-      url: 'https://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/1',
+      url: 'https://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/0',
     });
     layer.when(() => {
       this.queryLayer(layer);

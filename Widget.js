@@ -28,7 +28,7 @@ var Widget = /** @class */ (function () {
     Widget.prototype.createLayer = function () {
         var _this = this;
         var layer = new FeatureLayer_1["default"]({
-            url: 'https://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/1'
+            url: 'https://sampleserver6.arcgisonline.com/arcgis/rest/services/Recreation/FeatureServer/0'
         });
         layer.when(function () {
             _this.queryLayer(layer);
